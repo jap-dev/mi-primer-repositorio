@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <title>Bienes Raices Javi</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="site-header inicio">
-      <div class="contenedro contenido-header">
+      <div class="contenedor contenido-header">
         <div class="barra">
           <a href="/">
             <img src="img/logo.svg" alt="Logotipo de Bienes Raices" />
@@ -22,79 +25,89 @@
           </nav>
         </div>
         <h1>Venta de Casas y Departamentos Exclusivos de Lujo</h1>
-      </div> <!--contenedro-->
+      </div>
+      <!--contenedor-->
     </header>
-    <section>
-      <h2>Más Sobre Nosotros</h2>
+    <section class="contenedor">
+      <h2 class="fw-300 centrar-texto">Más Sobre Nosotros</h2>
 
-      <div>
-        <img src="img/icono1.svg" alt="icono seguridad" />
-        <h3>Sguridad</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sunt,
-          repellendus sed, quasi beatae quam, sint ad iste ab eius ut
-          reprehenderit dolorem obcaecati excepturi velit fugit labore nostrum
-          illo.
-        </p>
-      </div>
-
-      <div>
-        <img src="img/icono2.svg" alt="icono mejor precio" />
-        <h3>El Mejor Precio</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sunt,
-          repellendus sed, quasi beatae quam, sint ad iste ab eius ut
-          reprehenderit dolorem obcaecati excepturi velit fugit labore nostrum
-          illo.
-        </p>
-      </div>
-      <div>
-        <img src="img/icono3.svg" alt="icono a tiempo" />
-        <h3>A Tiempo</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sunt,
-          repellendus sed, quasi beatae quam, sint ad iste ab eius ut
-          reprehenderit dolorem obcaecati excepturi velit fugit labore nostrum
-          illo.
-        </p>
+      <div class="iconos-nosotros">
+        <div class="icono">
+          <img src="img/icono1.svg" alt="icono seguridad" />
+          <h3>Sguridad</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+            sunt, repellendus sed, quasi beatae quam, sint ad iste ab eius ut
+            reprehenderit dolorem obcaecati excepturi velit fugit labore nostrum
+            illo.
+          </p>
+        </div>
+        <div class="icono">
+          <img src="img/icono2.svg" alt="icono mejor precio" />
+          <h3>El Mejor Precio</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+            sunt, repellendus sed, quasi beatae quam, sint ad iste ab eius ut
+            reprehenderit dolorem obcaecati excepturi velit fugit labore nostrum
+            illo.
+          </p>
+        </div>
+        <div class="icono">
+          <img src="img/icono3.svg" alt="icono a tiempo" />
+          <h3>A Tiempo</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+            sunt, repellendus sed, quasi beatae quam, sint ad iste ab eius ut
+            reprehenderit dolorem obcaecati excepturi velit fugit labore nostrum
+            illo.
+          </p>
+        </div>
       </div>
     </section>
 
-    <main>
-      <h2>Casas y Depas en Venta</h2>
-      <div>
-        <img src="img/anuncio1.jpg" alt="Anuncio casa en el lago" />
-        <h3>Casa de Lujo en el Lago</h3>
-        <p>
-          Casa en el lago con excelente vista, acabados de lujo a un excelente
-          precio.
-        </p>
-        <p>Q. 3,000,000</p>
-        <a href="">ver propiedad</a>
+    <main class="seccion contenedor">
+      <h2 class="fw-300 centrar-texto">Casas y Depas en Venta</h2>
+      <div class="contenedor-anuncios">
+        <div class="anuncio">
+          <img src="img/anuncio1.jpg" alt="Anuncio casa en el lago" />
+          <div class="contenido-anuncios">
+            <h3>Casa de Lujo en el Lago</h3>
+            <p>
+              Casa en el lago con excelente vista, acabados de lujo a un
+              excelente precio.
+            </p>
+            <p class="precio">Q. 3,000,000</p>
+            <a href="" class="boton boton-amarillo d-block">ver propiedad</a>
+          </div>
+        </div>
+        <div class="anuncio">
+          <img src="img/anuncio2.jpg" alt="Anuncio casa de lujo" />
+          <div class="contenido-anuncios">
+            <h3>Casa Terminados de Lujo</h3>
+            <p>
+              Casa con diseño de lujo, así como tecnología inteligente y
+              amueblada
+            </p>
+            <p class="precio">Q. 2,000,000</p>
+            <a href="" class="boton boton-amarillo d-block">ver propiedad</a>
+          </div>
+        </div>
+        <div class="anuncio">
+          <img src="img/anuncio3.jpg" alt="Anuncio casa con alberca" />
+          <div class="contenido-anuncios">
+            <h3>Casa con Alberca</h3>
+            <p>
+              Casa con alberca y acabados de lujo en la ciudad, excelente
+              oportunidad.
+            </p>
+            <p class="precio">Q. 3,000,000</p>
+            <a href="" class="boton boton-amarillo d-block">ver propiedad</a>
+          </div>
+        </div>
       </div>
-
-      <div>
-        <img src="img/anuncio2.jpg" alt="Anuncio casa de lujo" />
-        <h3>Casa Terminados de Lujo</h3>
-        <p>
-          Casa con diseño de lujo, así como tecnología inteligente y amueblada
-        </p>
-        <p>Q. 2,000,000</p>
-        <a href="">ver propiedad</a>
+      <div class="ver-todas">
+        <a href="anuncios.html" class="boton boton-verde">ver todas</a>
       </div>
-
-      <div>
-        <img src="img/anuncio3.jpg" alt="Anuncio casa con alberca" />
-        <h3>Casa con Alberca</h3>
-        <p>
-          Casa con alberca y acabados de lujo en la ciudad, excelente
-          oportunidad.
-        </p>
-        <p>Q. 3,000,000</p>
-        <a href="">ver propiedad</a>
-      </div>
-
-      <a href="anuncios.html">ver todas</a>
     </main>
 
     <section>
