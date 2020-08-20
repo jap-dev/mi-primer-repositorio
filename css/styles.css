@@ -59,6 +59,10 @@ h4{
     margin-top: 3rem;
     display: inline-block;
     text-align: center;
+    border: none;
+}
+.boton:hover{
+    cursor: pointer;
 }
 .boton-amarillo{
     background-color: #e08709;
@@ -283,6 +287,50 @@ h4{
 }
 /**anuncio**/
 .resumen-propiedad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/** contacto**/
+form p{
+    font-size: 1.5rem;
+    color: #4f4f4f;
+    margin: 2rem 0 0 0;
+}
+legend{
+    font-size: 2rem;
+    color: #4f4f4f;
+}
+label {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+input:not([type="submit"]),
+textarea,
+select{
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+select{
+    -webkit-appearance: none;
+    appearance: none;
+}
+textarea{
+    height: 20rem;
+}
+input[type="radio"]{
+    width: auto;
+    margin: 0;
+}
+.forma-contacto{
+    max-width: 30rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
